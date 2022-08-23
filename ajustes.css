@@ -1,0 +1,100 @@
+body{
+    background-color: rgba(218, 233, 218, 1);
+}
+
+a{
+    font-style: italic;   
+}
+
+a:hover{
+    text-decoration: none;
+   
+}
+
+#produtos{
+    position: relative;
+    top: -100px;
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    ul{
+        position: relative;
+        top: -217px;
+        left: 155px;
+        
+    }
+    
+    li, a{
+        font-size: 18px;
+        
+        font-weight: 70px;
+        color: rgba(0, 0, 0, 0.79);
+        text-decoration: none;
+    }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    ul{
+        position: relative;
+        top: -245px;
+        left: 155px;
+        
+    }
+    
+    li, a{
+        font-size: 18px;        
+        font-weight: 70px;
+        color: rgba(0, 0, 0, 0.79);
+        text-decoration: none;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    ul{    
+        position: relative;
+        top: -325px;
+        left: 215px;        
+    }
+
+    li, a{
+        font-size: 1.2em;
+        font-weight: 50px;
+        color: rgba(0, 0, 0, 0.79);
+        text-decoration: none;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    ul{    
+        position: relative;
+        top: -382px;
+        left: 300px;        
+    }
+
+    li, a{
+        font-size: 1.2em;
+        font-weight: 50px;
+        color: rgba(0, 0, 0, 0.79);
+        text-decoration: none;
+    }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    ul{    
+        position: relative;
+        top: -380px;
+        left: 300px;        
+    }
+
+    li, a{
+        font-size: 1.2em;
+        font-weight: 50px;
+        color: rgba(0, 0, 0, 0.79);
+        text-decoration: none;
+    }
+ }
