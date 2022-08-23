@@ -20,13 +20,13 @@ a:hover{
  @media (max-width: 575.98px) { 
     ul{
         position: relative;
-        top: -217px;
-        left: 155px;
+        top: -165px;
+        left: 100px;
         
     }
     
     li, a{
-        font-size: 18px;
+        font-size: 15px;
         
         font-weight: 70px;
         color: rgba(0, 0, 0, 0.79);
